@@ -10,6 +10,6 @@
 
 @implementation PlayerCharacter
 
-@synthesize strength;
+@synthesize strength, stamina, dexterity, reactionSpeed, intuition, logic, personailty, leadership, name;
 
 @end
