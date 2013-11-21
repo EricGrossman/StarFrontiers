@@ -9,4 +9,7 @@
 #import "PlayerCharacter.h"
 
 @implementation PlayerCharacter
+
+@synthesize strength;
+
 @end
