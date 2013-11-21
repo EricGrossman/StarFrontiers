@@ -10,6 +10,7 @@
 		8C0F008A183DB5FE009039BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0F0089183DB5FE009039BA /* Foundation.framework */; };
 		8C0F008D183DB5FE009039BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F008C183DB5FE009039BA /* main.m */; };
 		8C0F0091183DB5FE009039BA /* StarFrontiers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C0F0090183DB5FE009039BA /* StarFrontiers.1 */; };
+		8C0F0099183DB6A7009039BA /* PlayerCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F0098183DB6A7009039BA /* PlayerCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		8C0F008C183DB5FE009039BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C0F008F183DB5FE009039BA /* StarFrontiers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarFrontiers-Prefix.pch"; sourceTree = "<group>"; };
 		8C0F0090183DB5FE009039BA /* StarFrontiers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StarFrontiers.1; sourceTree = "<group>"; };
+		8C0F0097183DB6A7009039BA /* PlayerCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCharacter.h; sourceTree = "<group>"; };
+		8C0F0098183DB6A7009039BA /* PlayerCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		8C0F007D183DB5FE009039BA = {
 			isa = PBXGroup;
 			children = (
+				8C0F0097183DB6A7009039BA /* PlayerCharacter.h */,
+				8C0F0098183DB6A7009039BA /* PlayerCharacter.m */,
 				8C0F008B183DB5FE009039BA /* StarFrontiers */,
 				8C0F0088183DB5FE009039BA /* Frameworks */,
 				8C0F0087183DB5FE009039BA /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0F0099183DB6A7009039BA /* PlayerCharacter.m in Sources */,
 				8C0F008D183DB5FE009039BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
