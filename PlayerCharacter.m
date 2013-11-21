@@ -9,5 +9,4 @@
 #import "PlayerCharacter.h"
 
 @implementation PlayerCharacter
-
 @end
