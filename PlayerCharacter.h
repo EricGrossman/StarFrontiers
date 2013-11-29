@@ -12,7 +12,7 @@
 {
     // Ability scores
     
-    unsigned int strength;
+    unsigned int _strength;
     unsigned int stamina;
     unsigned int dexterity;
     unsigned int reactionSpeed;
@@ -30,7 +30,7 @@
 
 // Declare object properties.
 
-@property unsigned int strength;
+@property unsigned int _strength;
 @property unsigned int stamina;
 @property unsigned int dexterity;
 @property unsigned int reactionSpeed;

@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PlayerCharacter.h"
+#import "Vrusk.h"
+#import "Human.h"
 
 int main(int argc, const char * argv[])
 {
@@ -14,7 +17,19 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Human *human = [[Human alloc] init];
+        Vrusk *vrusk = [[Vrusk alloc] init];
+        
+        [human set_strength:90];
+        [vrusk set_strength:90];
+        
+        NSLog(@"Human strength is %d", [human _strength]);
+        NSLog(@"Vrusk strength is %d", [vrusk _strength]);
+        
+        
+        
+        
         
     }
     return 0;
